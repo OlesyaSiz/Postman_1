@@ -1,0 +1,520 @@
+{
+	"id": "ef16f675-a056-474f-b13d-cdf29d3971a0",
+	"name": "age_europe (DZ 3)",
+	"timestamp": "2021-05-06T18:55:43.715Z",
+	"collection_id": "7eec4500-df99-4d98-9f9a-d910e0375c2d",
+	"folder_id": 0,
+	"environment_id": "5bd31381-9549-4f43-8e2d-d6a60de4d5d5",
+	"totalPass": 15,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "0ceaeef7-46c0-4a60-bfca-9bfe5555583c",
+			"name": "age_europe100",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 93,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"!": false
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				93
+			],
+			"allTests": [
+				{
+					"!": false
+				}
+			]
+		},
+		{
+			"id": "9544c724-f483-4c3f-84f2-abf87babff4d",
+			"name": "age_europe99",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 107,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"99": true
+			},
+			"testPassFailCounts": {
+				"99": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				107
+			],
+			"allTests": [
+				{
+					"99": true
+				}
+			]
+		},
+		{
+			"id": "78949f3e-9a87-46de-841e-0975b290a8ba",
+			"name": "age_europe0",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"!": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "28a44814-6dd3-4734-836a-0deb4cb64ca5",
+			"name": "age_europe1",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "3f69b331-f90f-4aed-ac08-a630a427534e",
+			"name": "age_europe18",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 100,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				100
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "041a4c9b-2102-45b5-b25e-eff7dcc8d462",
+			"name": "age_europe19",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "f5b4b582-1a54-466c-9224-eae2d6c23d60",
+			"name": "age_europe32",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 92,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				92
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "5953ee3e-6f7a-42f3-ac72-88ee64fd1b86",
+			"name": "age_europe49",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				80
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "43933ce0-eb5b-4e51-ac0d-776cc6200630",
+			"name": "age_europe50",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				84
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "93887d31-01b0-4775-bce0-80e5062e55cd",
+			"name": "age_europe51",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 92,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				92
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "28a5be3e-3a87-4147-a22f-1150f0d018c4",
+			"name": "age_europe75",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				102
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "a1f8108e-ec27-4d21-9528-aee64ef5f4a5",
+			"name": "age_europe10",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!!": true
+			},
+			"testPassFailCounts": {
+				"!!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				87
+			],
+			"allTests": [
+				{
+					"!!": true
+				}
+			]
+		},
+		{
+			"id": "f6f8fab5-2429-44d5-ad65-f509d4e4d271",
+			"name": "age_europe16",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!!!": true
+			},
+			"testPassFailCounts": {
+				"!!!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				90
+			],
+			"allTests": [
+				{
+					"!!!": true
+				}
+			]
+		},
+		{
+			"id": "bc3fe18e-deef-490c-8996-880315ef8b35",
+			"name": "age_europe17",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!!!": true
+			},
+			"testPassFailCounts": {
+				"!!!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"!!!": true
+				}
+			]
+		},
+		{
+			"id": "0bd2b6d4-cbb5-43ba-b4ac-b2f8f93545fe",
+			"name": "age_europe101",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 93,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"Status code is 500 (2)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500 (2)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				93
+			],
+			"allTests": [
+				{
+					"Status code is 500 (2)": true
+				}
+			]
+		},
+		{
+			"id": "ed379747-3b1e-420d-a84c-ad71103644a1",
+			"name": "age_europe-1",
+			"url": "http://116.203.27.46:5002/age_europe",
+			"time": 100,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 500 (2)": false
+			},
+			"testPassFailCounts": {
+				"Status code is 500 (2)": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				100
+			],
+			"allTests": [
+				{
+					"Status code is 500 (2)": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1526,
+	"collection": {
+		"requests": [
+			{
+				"id": "0ceaeef7-46c0-4a60-bfca-9bfe5555583c",
+				"method": "POST"
+			},
+			{
+				"id": "9544c724-f483-4c3f-84f2-abf87babff4d",
+				"method": "POST"
+			},
+			{
+				"id": "78949f3e-9a87-46de-841e-0975b290a8ba",
+				"method": "POST"
+			},
+			{
+				"id": "28a44814-6dd3-4734-836a-0deb4cb64ca5",
+				"method": "POST"
+			},
+			{
+				"id": "3f69b331-f90f-4aed-ac08-a630a427534e",
+				"method": "POST"
+			},
+			{
+				"id": "041a4c9b-2102-45b5-b25e-eff7dcc8d462",
+				"method": "POST"
+			},
+			{
+				"id": "f5b4b582-1a54-466c-9224-eae2d6c23d60",
+				"method": "POST"
+			},
+			{
+				"id": "5953ee3e-6f7a-42f3-ac72-88ee64fd1b86",
+				"method": "POST"
+			},
+			{
+				"id": "43933ce0-eb5b-4e51-ac0d-776cc6200630",
+				"method": "POST"
+			},
+			{
+				"id": "93887d31-01b0-4775-bce0-80e5062e55cd",
+				"method": "POST"
+			},
+			{
+				"id": "28a5be3e-3a87-4147-a22f-1150f0d018c4",
+				"method": "POST"
+			},
+			{
+				"id": "a1f8108e-ec27-4d21-9528-aee64ef5f4a5",
+				"method": "POST"
+			},
+			{
+				"id": "f6f8fab5-2429-44d5-ad65-f509d4e4d271",
+				"method": "POST"
+			},
+			{
+				"id": "bc3fe18e-deef-490c-8996-880315ef8b35",
+				"method": "POST"
+			},
+			{
+				"id": "0bd2b6d4-cbb5-43ba-b4ac-b2f8f93545fe",
+				"method": "POST"
+			},
+			{
+				"id": "ed379747-3b1e-420d-a84c-ad71103644a1",
+				"method": "POST"
+			}
+		]
+	}
+}
