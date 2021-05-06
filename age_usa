@@ -1,0 +1,520 @@
+{
+	"id": "d02d65d3-ebbe-484b-a48c-8a8873fcece8",
+	"name": "age_usa (DZ 3)",
+	"timestamp": "2021-05-06T18:56:50.842Z",
+	"collection_id": "a3915c4e-a6df-4ff9-9e1b-ec2e07917b92",
+	"folder_id": 0,
+	"environment_id": "5bd31381-9549-4f43-8e2d-d6a60de4d5d5",
+	"totalPass": 13,
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "18fdd572-6bbc-4fef-8827-ecf8240b699a",
+			"name": "age_usa0",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 734,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				734
+			],
+			"allTests": [
+				{
+					"!": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "283ba424-7698-4744-9245-f78d5504d860",
+			"name": "age_usa1",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 1544,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1544
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "add35135-c2bc-46a3-9136-00f439aaeb66",
+			"name": "age_usa10",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 1492,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1492
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "aa1530d3-6663-4f45-8f46-492ea77d33f4",
+			"name": "age_usa20",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 734,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				734
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "0631ec77-b5dd-4d8d-ac10-29e6ba562c86",
+			"name": "age_usa19",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 1048,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1048
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "b4cdfcc9-4962-47dd-9d93-bd8fd20391c0",
+			"name": "age_usa21",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 1425,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"!": false
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				1425
+			],
+			"allTests": [
+				{
+					"!": false
+				}
+			]
+		},
+		{
+			"id": "4dc7ee2c-084a-4644-afe4-ba3eca36edd1",
+			"name": "age_usa22",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "0c50e78f-4aea-4a61-983e-b8d4946d3711",
+			"name": "age_usa33",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "11c768fd-00d3-4c3b-a506-928a5b282d77",
+			"name": "age_usa49",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "1000fb67-99a6-4559-b10e-3ccfeb28a27a",
+			"name": "age_usa50",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 102,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"!": false
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				102
+			],
+			"allTests": [
+				{
+					"!": false
+				}
+			]
+		},
+		{
+			"id": "43234dd7-664f-4859-9418-175131b248b2",
+			"name": "age_usa51",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				125
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "b002aa0a-9b38-492b-83eb-f729bfc41604",
+			"name": "age_usa75",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 116,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				116
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		},
+		{
+			"id": "93c4a5ef-f9a3-44a9-8f64-9f6104010dda",
+			"name": "age_usa100",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 90,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"!": false
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				90
+			],
+			"allTests": [
+				{
+					"!": false
+				}
+			]
+		},
+		{
+			"id": "c005669f-8884-41f5-a920-91494dc29b26",
+			"name": "age_usa101",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 191,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {
+				"Status code is 500 (2)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500 (2)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				191
+			],
+			"allTests": [
+				{
+					"Status code is 500 (2)": true
+				}
+			]
+		},
+		{
+			"id": "f4af39b9-9e16-48e7-8ae4-6f54ea578d3c",
+			"name": "age_usa-1",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 115,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 500 (2)": false
+			},
+			"testPassFailCounts": {
+				"Status code is 500 (2)": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				115
+			],
+			"allTests": [
+				{
+					"Status code is 500 (2)": false
+				}
+			]
+		},
+		{
+			"id": "a628e8c4-329c-492c-9bed-9390100663c4",
+			"name": "age_usa99",
+			"url": "http://116.203.27.46:5002/age_usa",
+			"time": 91,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"!": true
+			},
+			"testPassFailCounts": {
+				"!": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				91
+			],
+			"allTests": [
+				{
+					"!": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8141,
+	"collection": {
+		"requests": [
+			{
+				"id": "18fdd572-6bbc-4fef-8827-ecf8240b699a",
+				"method": "POST"
+			},
+			{
+				"id": "283ba424-7698-4744-9245-f78d5504d860",
+				"method": "POST"
+			},
+			{
+				"id": "add35135-c2bc-46a3-9136-00f439aaeb66",
+				"method": "POST"
+			},
+			{
+				"id": "aa1530d3-6663-4f45-8f46-492ea77d33f4",
+				"method": "POST"
+			},
+			{
+				"id": "0631ec77-b5dd-4d8d-ac10-29e6ba562c86",
+				"method": "POST"
+			},
+			{
+				"id": "b4cdfcc9-4962-47dd-9d93-bd8fd20391c0",
+				"method": "POST"
+			},
+			{
+				"id": "4dc7ee2c-084a-4644-afe4-ba3eca36edd1",
+				"method": "POST"
+			},
+			{
+				"id": "0c50e78f-4aea-4a61-983e-b8d4946d3711",
+				"method": "POST"
+			},
+			{
+				"id": "11c768fd-00d3-4c3b-a506-928a5b282d77",
+				"method": "POST"
+			},
+			{
+				"id": "1000fb67-99a6-4559-b10e-3ccfeb28a27a",
+				"method": "POST"
+			},
+			{
+				"id": "43234dd7-664f-4859-9418-175131b248b2",
+				"method": "POST"
+			},
+			{
+				"id": "b002aa0a-9b38-492b-83eb-f729bfc41604",
+				"method": "POST"
+			},
+			{
+				"id": "93c4a5ef-f9a3-44a9-8f64-9f6104010dda",
+				"method": "POST"
+			},
+			{
+				"id": "c005669f-8884-41f5-a920-91494dc29b26",
+				"method": "POST"
+			},
+			{
+				"id": "f4af39b9-9e16-48e7-8ae4-6f54ea578d3c",
+				"method": "POST"
+			},
+			{
+				"id": "a628e8c4-329c-492c-9bed-9390100663c4",
+				"method": "POST"
+			}
+		]
+	}
+}
