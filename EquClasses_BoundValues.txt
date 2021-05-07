@@ -1,0 +1,230 @@
+"Postman":[{"endpoint": "age_europe",
+            "method": "POST",
+            "body_params": "age: int",
+            "age_class":["0-17", "18-50", "50-100"],
+            "task": "Create equivalence classes and boundary values tests"}
+            {"endpoint": "age_usa",
+            "method": "POST",
+            "body_params": "age: int",
+            "age_class":["0-20", "21-50", "50-100"],
+            "task": "Create equivalence classes and boundary values tests"}].
+
+age_europe:
+
+pm.test("100", function () {
+    let jsonData = pm.response.json();
+   pm.expect(jsonData.age_type).to.eql("antiquity");
+});
+
+--------------------------------------
+
+pm.test("99", function () {
+    let jsonData = pm.response.json();
+   pm.expect(jsonData.age_type).to.eql("antiquity");
+});
+
+-------------------------------------
+pm.test("0", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("underage");
+
+}); 
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+-----------------------------------
+pm.test("1", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("underage");
+
+}); 
+
+------------------------------------
+pm.test("18", function () {
+    let jsonData = pm.response.json();
+   pm.expect(jsonData.age_type).to.eql("adult");
+});
+
+----------------------------------------
+pm.test("19", function () {
+    let jsonData = pm.response.json();
+   pm.expect(jsonData.age_type).to.eql("adult");
+});
+
+-----------------------------------------
+pm.test("32", function () {
+    let jsonData = pm.response.json();
+   pm.expect(jsonData.age_type).to.eql("adult");
+});
+
+------------------------------------------
+pm.test("49", function () {
+    let jsonData = pm.response.json();
+   pm.expect(jsonData.age_type).to.eql("adult");
+});
+
+--------------------------------------------
+pm.test("50", function () {
+    let jsonData = pm.response.json();
+   pm.expect(jsonData.age_type).to.eql("antiquity");
+});
+
+---------------------------------------------
+pm.test("51", function () {
+    let jsonData = pm.response.json();
+   pm.expect(jsonData.age_type).to.eql("antiquity");
+});
+
+--------------------------------------------------
+pm.test("75", function () {
+    let jsonData = pm.response.json();
+   pm.expect(jsonData.age_type).to.eql("antiquity");
+});
+
+------------------------------------------------
+pm.test("10", function () {
+    let jsonData = pm.response.json();
+    pm.expect(jsonData.age_type).to.eql("underage");
+});
+
+------------------------------------------------
+pm.test("16", function () {
+    let jsonData = pm.response.json();
+    pm.expect(jsonData.age_type).to.eql("underage");
+});
+
+--------------------------------------------------
+pm.test("17", function () {
+    let jsonData = pm.response.json();
+    pm.expect(jsonData.age_type).to.eql("underage");
+});
+
+---------------------------------------------------
+pm.test("Status code is 500 (101)", function () {
+    pm.response.to.have.status(500) 
+});
+------------------------------------------------------
+pm.test("Status code is 500 (-1)", function () {
+    pm.response.to.have.status(500) 
+});
+
+
+
+age_usa
+
+
+
+pm.test("0", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("underage");
+
+});
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+--------------------------------------------------
+pm.test("1", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("underage");
+
+});
+
+----------------------------------------------------
+pm.test("10", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("underage");
+
+});
+
+----------------------------------------------------
+pm.test("20", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("underage");
+
+});
+
+---------------------------------------------------
+pm.test("19", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("underage");
+
+});
+
+-------------------------------------------------
+pm.test("21", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("adult");
+
+});
+
+--------------------------------------------------
+pm.test("22", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("adult");
+
+});
+
+------------------------------------------------
+pm.test("33", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("adult");
+
+});
+
+-------------------------------------------------
+pm.test("49", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("adult");
+
+});
+
+------------------------------------------------
+pm.test("50", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("adult");
+
+});
+
+---------------------------------------------
+pm.test("51", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("antiquity");
+
+});
+
+-----------------------------------------------------
+pm.test("75", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("antiquity");
+
+});
+
+-----------------------------------------------
+pm.test("100", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("antiquity");
+
+});
+
+----------------------------------------------------------
+pm.test("Status code is 500 (101)", function () {
+    pm.response.to.have.status(500) 
+});
+
+----------------------------------------------------------
+pm.test("Status code is 500 (-1)", function () {
+    pm.response.to.have.status(500) 
+});
+
+------------------------------------------------------
+pm.test("99", function () {
+    var jsonData = pm.response.json (); 
+    pm.expect(jsonData.age_type).to.eql("antiquity");
+
+});
+
+
